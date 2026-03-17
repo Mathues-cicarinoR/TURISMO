@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURISMO | Sua Agência de Viagens e Passeios</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans antialiased overflow-x-hidden">
+
+    <!--  MENU  -->
+
+    <nav class="bg-white/95 backdrop-blur-sm text-gray-800 shadow-lg fixed w-full z-50 top-0 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="#inicio" class="text-2xl font-bold text-turismo italic">SUA<span
+                        class="text-turismo-accent">AGÊNCIA</span></a>
+            </div>
+
+            <div class="hidden md:flex space-x-8 items-center font-medium">
+                <a href="#inicio" class="hover:text-turismo transition-colors">Início</a>
+                <a href="#destinos" class="hover:text-turismo transition-colors">Passeios</a>
+                <a href="#quem-somos" class="hover:text-turismo transition-colors">Quem Somos</a>
+                <a href="https://wa.me/21976302197?text=Olá! Gostaria de mais informações sobre os passeios." target="_blank"
+                    class="bg-green-500 hover:bg-green-600 px-5 py-2.5 rounded-md font-semibold transition-all text-white flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Agendar Agora
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--  MENU  -->
+
+    <section id="inicio"
+        class="hero-section h-[100vh] flex items-center justify-center text-center text-white px-4 pt-16">
+        <div class="max-w-3xl" data-aos="fade-up">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-md">Descubra o
+                paraíso em <br>Porto de Galinhas.</h1>
+            <p class="text-lg md:text-xl text-gray-100 mb-8 font-medium">Os melhores roteiros, buggys e piscinas
+                naturais com quem vive e ama Pernambuco.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="#destinos"
+                    class="bg-turismo-accent hover:bg-orange-500 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all shadow-lg">Ver
+                    Passeios</a>
+                <a href="https://wa.me/21976302197?text=Olá! Gostaria de planejar meus passeios."
+                    class="bg-white/20 backdrop-blur-md border border-white/30 hover:bg-white/30 text-white font-bold py-3 px-8 rounded-lg text-lg transition-all" target="_blank">Falar
+                    com a Equipe</a>
+            </div>
+        </div>
+    </section>
+
+    <!--  ESTATISTICAS  -->
+
+    <section id="numeros-section" class="py-16 bg-turismo text-white border-y border-white/10">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2 flex justify-center text-turismo-accent"><span
+                            class="counter" data-target="8000">0</span>+</div>
+                    <p class="text-blue-100 font-semibold uppercase tracking-wider text-sm">Turistas Atendidos</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2 flex justify-center text-turismo-accent"><span
+                            class="counter" data-target="10">0</span>+</div>
+                    <p class="text-blue-100 font-semibold uppercase tracking-wider text-sm">Anos de Experiência</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="300">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2 flex justify-center text-turismo-accent"><span
+                            class="counter" data-target="5">0</span>/5</div>
+                    <p class="text-blue-100 font-semibold uppercase tracking-wider text-sm">Nota no TripAdvisor</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-delay="400">
+                    <div class="text-4xl md:text-5xl font-extrabold mb-2 flex justify-center text-turismo-accent"><span
+                            class="counter" data-target="100">0</span>%</div>
+                    <p class="text-blue-100 font-semibold uppercase tracking-wider text-sm">Diversão Garantida</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  DESTINOS  -->
+
+    <section id="destinos" class="py-24 max-w-7xl mx-auto px-4 bg-gray-50">
+        <div class="text-center mb-16" data-aos="fade-up">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900 italic">Passeios que você vai amar</h2>
+            <div class="w-20 h-1 bg-turismo-accent mx-auto mt-6"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    
+    <!--  CARD-1  -->             
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300" data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/buggy/buggy12.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy6.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy14.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy5.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy6.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy7.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy8.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy9.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy10.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy11.jpeg" class="w-full h-full object-cover"></div>                            
+                            <div class="swiper-slide"><img src="img/buggy/buggy13.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/buggy/buggy15.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-1 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Passeio de Buggy</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">MAIS VENDIDO</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-star text-turismo mr-2 w-5 text-center"></i>Busca e retorno no hotel</li>
+                        <li class="flex items-center"><i class="fa-solid fa-van-shuttle text-turismo mr-2 w-5 text-center"></i>Veículo exclusivo p/ até 4 pessoas</li>
+                    </ul>
+                    <div class="mb-4 flex items-baseline gap-1.5 text-left">
+                        <span class="font-black text-3xl text-turismo">R$ 350</span>
+                        <span class="text-xs font-bold text-gray-400"> / A partir de:</span>
+                    </div>
+                    <div class="flex gap-2">
+                        <a href="passeios/buggy.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Passeio de Buggy." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-2  --> 
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up" data-aos-delay="100">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo6.webp" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo7.webp" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo2.webp" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo3.webp" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo4.webp" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/quadriciclo/quadriciclo5.webp" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-1 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Passeio de quadriciclo</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-star text-turismo mr-2 w-5 text-center"></i>Fotos cortesia inclusas</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-turismo mr-2 w-5 text-center"></i>Acompanhado por guia especializado</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 450 <small
+                            class="text-xs text-gray-400">/ 2 pessoa</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/quadriciclo.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Passeio de Quadriciclo." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-3  --> 
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up" data-aos-delay="200">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/maragogi/maragogi3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/maragogi/maragogi1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/maragogi/maragogi2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/maragogi/maragogi4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/maragogi/maragogi5.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6 text-left">
+                    <div class="flex justify-between items-start mb-1 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Passeio em Maragogi</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">MAIS VENDIDO</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-star text-turismo mr-2 w-5 text-center"></i>Busca e retorno no hotel</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-turismo mr-2 w-5 text-center"></i>Transporte privativo</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 480 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/maragogi.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Passeio para Maragogi." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-4  -->
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros5.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros6.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/carneiros/carneiros7.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-1 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Passeio em Carneiros</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">MAIS VENDIDO</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li class="flex items-center"><i class="fa-solid fa-star text-turismo mr-2 w-5 text-center"></i>Transporte privativo</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-turismo mr-2 w-5 text-center"></i>Acesso ao Receptivo Bora Bora</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 370 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/carneiros.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Passeio para Carneiros." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-5  --> 
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/mergulho/mergulho1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/mergulho/mergulho2.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Mergulho com Cilindro</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded"></span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Instrução Teorica e Pratica</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Equipe e quipamentos certificados</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 100 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/mergulho.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Mergulho com Cilindro." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-6  -->     
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/city/city.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city5.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city6.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city7.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/city/city8.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Citytour recife e olinda</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Guia Credenciado</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Equipamentos de Segurança</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 420 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/city.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o City Tour Recife e Olinda." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-7  -->     
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/paramotor/paramotor1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/paramotor/paramotor2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/paramotor/paramotor3.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Voo de Paramotor</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Guia Credenciado</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Equipamentos de Segurança</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo"> R$ 400 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/paramotor.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o Voo de Paramotor." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+
+    <!--  CARD-8  --> 
+
+            <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/peixe/peixe1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe5.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe6.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/peixe/peixe7.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Imagens Subaquaticas</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Fotografoco profissional</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Auxilio em poses</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 220 <small
+                            class="text-xs text-gray-400"> / A partir de: </small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/imgsub.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de mais informações sobre o serviço de Imagens." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        
+        <!--  CARD-9  --> 
+
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/boia/boia2.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/boia/boia3.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/boia/boia4.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/boia/boia5.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/boia/boia6.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Imagens na Boia</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Fotografoco profissional</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Auxilio em poses</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 180 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/boia.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de mais informações sobre o serviço de Imagens." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+
+        <!--  CARD-10  --> 
+
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden group hover:-translate-y-2 transition-all duration-300"
+                data-aos="fade-up">
+                <div class="relative aspect-[4/4] overflow-hidden">
+                    <div class="swiper tour-swiper h-full">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="img/jet/jet1.jpeg" class="w-full h-full object-cover"></div>
+                            <div class="swiper-slide"><img src="img/jet/jet2.jpeg" class="w-full h-full object-cover"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-button-next clean-nav"></div>
+                    <div class="swiper-button-prev clean-nav"></div>
+                </div>
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-4 text-left">
+                        <h3 class="text-xl font-bold text-slate-900 leading-tight">Jetski</h3>
+                        <span class="bg-orange-100 text-orange-600 text-xs font-bold px-2 py-1 rounded">DESTAQUE</span>
+                    </div>
+                    <ul class="text-gray-600 mb-6 space-y-2 text-sm text-left">
+                        <li><i class="fa-solid fa-check text-turismo mr-2"></i>Equipamentos de qualidade</li>
+                        <li><i class="fa-solid fa-star text-turismo mr-2"></i>Até 2 pessoas</li>
+                    </ul>
+                    <div class="mb-4 text-left font-black text-2xl text-turismo">R$ 200 <small
+                            class="text-xs text-gray-400"> / A partir de:</small></div>
+                    <div class="flex gap-2">
+                        <a href="passeios/jet.html" class="flex-1 bg-slate-100 hover:bg-slate-200 text-slate-700 py-3 rounded-xl font-bold transition-all text-sm text-center">
+                            Saiba Mais
+                        </a>
+                        <a href="https://wa.me/21976302197?text=Olá! Gostaria de agendar o passeio de Jetski." target="_blank"
+                            class="flex-1 bg-green-500 hover:bg-green-600 text-white py-3 rounded-xl font-bold transition-all text-sm text-center">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <!--  QUEM SOMOS  -->
+
+    <section id="quem-somos" class="py-24 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-16">
+                <div class="relative aspect-[3/4] overflow-hidden" data-aos="fade-right">
+                    <img src="img/quemsomos_generic.png"
+                        alt="Nossa Equipe" class=" w-full h-full object-cover  ">
+                </div>
+                <div class="w-full md:w-1/2" data-aos="fade-left">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6 text-left">Especialistas em criar
+                        memórias no litoral pernambucano</h2>
+                    <div class="w-20 h-1 bg-turismo-accent mb-8"></div>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-6 text-left">
+                        Nossa <strong>Agência de Viagens</strong> é referência em turismo receptivo. Nossa
+                        missão é proporcionar a você e sua família uma experiência autêntica, segura e inesquecível.
+                    </p>
+                    <p class="text-gray-600 text-lg leading-relaxed mb-8 text-left">
+                        Do famoso passeio de buggy "Ponta a Ponta" até as piscinas naturais mais cristalinas, cuidamos
+                        de cada detalhe para que sua única preocupação seja o protetor solar.
+                    </p>
+                    <a href="https://wa.me/21976302197?text=Olá! Gostaria de mais informações sobre os passeios."
+                        class="inline-flex items-center gap-2 font-bold text-turismo hover:text-turismo-accent transition-colors">
+                        Fale com um guia local <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="avaliacoes" class="py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold">Experiências de quem já viajou conosco</h2>
+                <div class="w-20 h-1 bg-turismo-accent mx-auto mt-4"></div>
+            </div>
+
+            <div class="swiper avaliacaoSwiper pb-12">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide p-4">
+                        <div
+                            class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 italic relative text-left">
+                            <i class="fa-solid fa-quote-left text-turismo-accent text-4xl absolute -top-4 left-6"></i>
+                            <p class="mb-6 text-gray-300">"A equipe é nota 10! Fizemos o passeio de buggy e eles sabiam os
+                                melhores pontos para fotos onde não tinha muita gente. Valeu cada centavo!"</p>
+                            <h4 class="font-bold text-white text-left">Mariana Silva - SP</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-4 text-left">
+                        <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 italic relative">
+                            <i class="fa-solid fa-quote-left text-turismo-accent text-4xl absolute -top-4 left-6"></i>
+                            <p class="mb-6 text-gray-300">"Toda a logística para Carneiros foi impecável. Guia pontual e
+                                muito educado. Com certeza recomendaremos para nossos amigos."</p>
+                            <h4 class="font-bold text-white">Carlos André - MG</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="equipe" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold">Nossa Equipe</h2>
+                <div class="w-20 h-1 bg-turismo-accent mx-auto mt-4"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg border-t-4 border-turismo hover:-translate-y-2 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://i.pravatar.cc/150?u=guia1"
+                        class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-md">
+                    <h3 class="font-bold text-2xl mb-1 text-slate-900 text-center">Carlos (Guia)</h3>
+                    <p class="text-turismo font-semibold mb-4 text-center">Especialista Local</p>
+                    <p class="text-gray-500 text-sm italic text-center">"Apaixonado por turismo, Carlos garante que cada
+                        visitante sinta a energia única do nosso litoral."</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg border-t-4 border-turismo hover:-translate-y-2 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://i.pravatar.cc/150?u=junior"
+                        class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-md">
+                    <h3 class="font-bold text-2xl mb-1 text-slate-900 text-center">Júnior Buggy</h3>
+                    <p class="text-turismo font-semibold mb-4 text-center">Especialista em Aventuras</p>
+                    <p class="text-gray-500 text-sm italic text-center">"Com Júnior, a emoção é garantida com toda a
+                        segurança nos melhores caminhos de areia."</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 text-center shadow-lg border-t-4 border-turismo hover:-translate-y-2 transition-all duration-300"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://i.pravatar.cc/150?u=atendimento"
+                        class="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-white shadow-md">
+                    <h3 class="font-bold text-2xl mb-1 text-slate-900 text-center">Ana Luísa</h3>
+                    <p class="text-turismo font-semibold mb-4 text-center">Atendimento e Reservas</p>
+                    <p class="text-gray-500 text-sm italic text-center">"A Ana organiza seu roteiro de forma
+                        personalizada, do primeiro contato até o fim da viagem."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-gray-400 py-12 text-center border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-2xl font-bold text-white mb-2 italic">SUA<span class="text-turismo-accent">AGÊNCIA</span>
+            </h2>
+            <p class="mb-6">Sua melhor experiência em Porto de Galinhas começa aqui.</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://www.instagram.com/a nossa equipepasseios?igsh=Y2VwZ2RheWlldWs3" target="_blank"
+                    class="text-gray-400 hover:text-white transition-all text-2xl"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/21976302197?text=Olá! Gostaria de mais informações sobre os passeios." class="text-gray-400 hover:text-white transition-all text-2xl"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <p class="text-sm">© 2026 Sua Agência de Viagens - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Scripts Globais -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
